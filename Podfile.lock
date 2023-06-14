@@ -1,5 +1,5 @@
 PODS:
-  - ChattyWebviews (0.1.0):
+  - ChattyWebviews (0.0.1):
     - SSZipArchive
   - SQLite.swift (0.14.1):
     - SQLite.swift/standard (= 0.14.1)
@@ -7,23 +7,20 @@ PODS:
   - SSZipArchive (2.5.4)
 
 DEPENDENCIES:
-  - ChattyWebviews (from `../../ChattyWebviews`)
+  - ChattyWebviews
   - SQLite.swift (~> 0.14.0)
 
 SPEC REPOS:
   trunk:
+    - ChattyWebviews
     - SQLite.swift
     - SSZipArchive
 
-EXTERNAL SOURCES:
-  ChattyWebviews:
-    :path: "../../ChattyWebviews"
-
 SPEC CHECKSUMS:
-  ChattyWebviews: d08f3a4904c715337cd1527f75e74330b9cc3e9c
+  ChattyWebviews: 58bb7f8d219903756e5c1e3b6c7a8657da622769
   SQLite.swift: 2992550ebf3c5b268bf4352603e3df87d2a4ed72
   SSZipArchive: 285b618a158ebc421039c22db5b77d345c7c03db
 
-PODFILE CHECKSUM: ed5d7513c9bf1eb7de56f4178d3a6e28ca2a837a
+PODFILE CHECKSUM: 951493e1d1f96ee2c5207c595af166e0760d9ef2
 
 COCOAPODS: 1.11.3
